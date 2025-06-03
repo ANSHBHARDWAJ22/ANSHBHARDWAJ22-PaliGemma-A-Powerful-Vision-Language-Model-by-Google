@@ -13,6 +13,8 @@ This powerful combination, connected via a **linear adapter**, forms the foundat
 ---
 
 ##  Architecture Details
+![Screenshot 2025-05-25 040119](https://github.com/user-attachments/assets/80b93a8e-62a0-4d2e-9299-f83f54655045)
+
 
 ### 🔹 Image Encoder: SigLIP
 
