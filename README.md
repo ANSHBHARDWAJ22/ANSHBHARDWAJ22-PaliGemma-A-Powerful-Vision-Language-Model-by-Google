@@ -1,6 +1,6 @@
 # PaliGemma: A Powerful Vision-Language Model by Google
 
-## 📌 Overview
+##  Overview
 
 **PaliGemma** is a cutting-edge **Vision-Language Model (VLM)** developed by Google that combines the capabilities of both image understanding and natural language generation. It can take an **image + text as input** and produce **text as output**, making it ideal for tasks like **image captioning**, **visual question answering (VQA)**, **object detection**, and **referring expression segmentation**.
 
@@ -12,7 +12,7 @@ This powerful combination, connected via a **linear adapter**, forms the foundat
 
 ---
 
-## 🧠 Architecture Details
+##  Architecture Details
 
 ### 🔹 Image Encoder: SigLIP
 
@@ -28,7 +28,7 @@ A **learned linear projection layer** connects the SigLIP image encoder output t
 
 ---
 
-## 🔀 Checkpoint Types
+##  Checkpoint Types
 
 Google has released multiple types of PaliGemma models optimized for different usage scenarios:
 
@@ -40,7 +40,7 @@ Google has released multiple types of PaliGemma models optimized for different u
 
 ---
 
-## 🖼️ Resolutions & Precisions
+##  Resolutions & Precisions
 
 Each model is available in **three resolutions**:
 - `224x224`: Suitable for most use cases, optimized for speed and memory
@@ -67,12 +67,12 @@ All PaliGemma models are released on the [Hugging Face Hub](https://huggingface.
 
 ---
 
-## 🧪 Core Capabilities
+##  Core Capabilities
 
 PaliGemma is **not designed for multi-turn conversation**. Instead, it performs **single-turn tasks** — one image and one prompt per prediction.
 
 You configure the task using **task-specific prefixes**, such as:
 
-### 1. 📷 Image Captioning
+### 1.  Image Captioning
 ```text
 caption
